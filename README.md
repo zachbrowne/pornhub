@@ -67,7 +67,18 @@ Performs a search and returns the results. `parameters` is an object that is
 used to construct the query string for the search URL.
 
 Available parameters are:
-search=hard&tags[]=Teen&thumbsize=medium
+
+- `category` (Optional)
+
+- `page` (Optional) Integer
+
+- `search` (Optional) Text
+
+- `stars` (Optional) Array
+
+- `tags` (Optional) Array
+
+- `thumbsize` (Required). Possible values are small,medium,large,small_hd,medium_hd,large_hd
 
 signup for [hubtraffic.com](http://http://www.hubtraffic.com/) and see method `searchVideos` for details
 
@@ -77,7 +88,7 @@ ph.search(parameters, cb);
 
 ```javascript
 // get details about a video
-ph.search({k: "porn"}, function(err, results) {
+ph.search({search: "hard", tags: ["teen"], thumbsize: "medium"}, function(err, results) {
   console.log(err, results);
 });
 ```
