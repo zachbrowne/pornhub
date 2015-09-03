@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-var xv = require("./");
+var ph = require("./");
 
 // search for... porn!
-xv.search({k: "porn", sort: "uploaddate", durf: "10min_more"}, function(err, res) {
+ph.search({search: "hard", tags: ["teen"], thumbsize: "medium"}, function(err, res) {
   if (err) {
     return console.warn(err);
   }
@@ -12,7 +12,7 @@ xv.search({k: "porn", sort: "uploaddate", durf: "10min_more"}, function(err, res
 
   // get details about each video
   res.videos.forEach(function(video) {
-    xv.details(video.url, function(err, details) {
+    ph.details(video.url, function(err, details) {
       if (err) {
         return console.warn("Error fetching details for " + video.url);
       }
