@@ -103,7 +103,7 @@ Arguments
 Example
 -------
 
-Also see [example.js](https://github.com/deoxxa/pornhub/blob/master/example.js).
+Also see [example.js](https://github.com/electblake/pornhub/blob/master/example.js).
 
 ```javascript
 #!/usr/bin/env node
@@ -146,7 +146,5 @@ License
 Contact
 -------
 
-* GitHub ([deoxxa](http://github.com/deoxxa))
-* Twitter ([@deoxxa](http://twitter.com/deoxxa))
-* ADN ([@deoxxa](https://alpha.app.net/deoxxa))
-* Email ([deoxxa@fknsrs.biz](mailto:deoxxa@fknsrs.biz))
+* GitHub ([electblake](http://github.com/electblake))
+* Twitter ([@electblake](http://twitter.com/electblake))
