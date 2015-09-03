@@ -4,6 +4,7 @@
   "description": "Access pornhub.com programmatically",
   "main": "pornhub.js",
   "scripts": {},
+  "homepage": "https://github.com/electblake/pornhub",
   "repository": {
     "type": "git",
     "url": "git://github.com/electblake/pornhub.git"
