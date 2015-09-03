@@ -1,22 +1,25 @@
 {
-  "name": "xvideos",
-  "version": "0.0.4",
-  "description": "Access xvideos.com programmatically",
-  "main": "xvideos.js",
+  "name": "pornhub",
+  "version": "0.0.1",
+  "description": "Access pornhub.com programmatically",
+  "main": "pornhub.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/deoxxa/xvideos.git"
+    "url": "git://github.com/electblake/pornhub.git"
   },
   "keywords": [
-    "xvideos",
+    "pornhub",
     "search",
     "porn",
     "web"
   ],
-  "author": "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+  "author": "Blake E <electblake@gmail.com> (http://www.twitter.com/electblake)",
   "license": "BSD",
   "dependencies": {
-    "cheerio": "~0.10.8"
+    "cheerio": "~0.10.8",
+    "html-entities": "^1.1.3",
+    "lodash": "^3.10.1",
+    "request": "^2.61.0"
   }
 }
